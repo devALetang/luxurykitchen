@@ -14,13 +14,23 @@
 
 footer {
     background-color: rgba(30, 30, 30, 1);
+    width: 100%;
+    height: 350px;
+}
+
+.footer0 {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between
 
 }
 
 .foot1 {
+    width: 19%;
+    margin-top: 2%;
+    margin-left: 2%;
     display: flex;
     flex-direction: column;
 }
@@ -28,57 +38,81 @@ footer {
 .foot11 {
     display: flex;
     flex-direction: row;
+    margin-top: 5%;
+}
+
+.iconf {
+    width: 20px;
+    height: 20px;
 }
 
 .foot2 {
+    width: 40%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .foot21 {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.foot22 {
+.foot211 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}
-
-.foot221 {
-    display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     border: solid;
     border-radius: 10px;
     border-color: white;
     padding: 2%;
+    width: 30%;
     margin: 2%;
 }
 
 .pfoot1 {
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .foot23 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin-top: 2%;
+}
 
+.ial {
+    padding: 2%;
 }
 
 .foot3 {
+    width: 19%;
+    margin-right: 2%;
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
+
 }
 
 .foot31 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+}
+
+.afr {
+    margin: 4%;
+}
+
+
+.foot4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
 }
