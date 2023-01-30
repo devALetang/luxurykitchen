@@ -1,0 +1,18 @@
+.buttonfb {
+    width: 33%;
+    height: 3rem;
+    background-color: #254AA5;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonfb:hover {
+    background-color: #1e4192;
+}
+
+.fa-brands {
+    height: 15rem;
+}

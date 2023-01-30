@@ -1,0 +1,14 @@
+.buttonap {
+    width: 33%;
+    height: 3rem;
+    background-color: #0B0B0B;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonap:hover {
+    background-color: #121212;
+}

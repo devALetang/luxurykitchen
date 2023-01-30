@@ -1,0 +1,28 @@
+* {
+    background-color: #1E1E1E;
+}
+.buttongg {
+    width: 33%;
+    height: 3rem;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttongg:hover {
+    background: linear-gradient(217deg, #DC3C2A, rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.buttongg img {
+    transition: 0.8s;
+    height: 2rem;
+    background: none;
+}

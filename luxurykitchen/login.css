@@ -1,0 +1,134 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+/* ********** H1 ********** */
+
+.loginh1 {
+    color: white;
+    font-size: 24px;
+}
+
+ /* ********** Button FB ********** */
+
+.buttonfb {
+    width: 33%;
+    height: 3rem;
+    background-color: #254AA5;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonfb:hover {
+    background-color: #1e4192;
+}
+
+.fa-brands {
+    height: 15rem;
+}
+
+/* ********** Button AP ********** */ 
+
+.buttonap {
+    width: 33%;
+    height: 3rem;
+    background-color: #0B0B0B;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonap:hover {
+    background-color: #121212;
+}
+
+/* ********** Button GG ********** */
+
+.buttongg {
+    width: 33%;
+    height: 3rem;
+    background-color: transparent;
+    border: white solid 1px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttongg:hover {
+    background: linear-gradient(217deg, #DC3C2A, rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.buttongg img {
+    transition: 0.8s;
+    height: 2rem;
+    background: none;
+}
+
+/* ********** P ********** */
+
+.loginp {
+    font-size: 20px;
+    color: white;
+}
+
+.loginp a {
+    text-decoration: none;
+    color: #E02B1A;
+}
+
+/* ********** ID ********** */
+
+.loginput {
+    width: 33%;
+    height: 84px;
+    border: solid 1px #595959;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.loginput::placeholder {
+    font-size: 22px;
+}
+
+/* ********** CONNECT ********** */
+
+.seconnect {
+    width: 9.375rem;
+    height: 2.375rem;
+    color: white;
+    background: linear-gradient(#cd2f20, #9E1407);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.seconnect:hover {
+    background: #9d1509;
+}
+
+/* *************************** */
+
+#id { 
+}
+
+#button {
+    display: flex;
+    flex-direction: column;
+}
+
