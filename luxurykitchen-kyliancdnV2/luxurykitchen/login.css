@@ -1,0 +1,193 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+/* *************************** */
+
+#id {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+#loginButton * {
+    margin-block: 0.4rem;
+}
+
+#loginButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#loginButton a:last-child {
+    margin-bottom: 0;
+}
+
+/* ********** H1 ********** */
+
+.loginh1 {
+    color: white;
+    font-size: 24px;
+    margin: 2.5rem 0 0 0; 
+}
+
+ /* ********** Button FB ********** */
+
+ .buttonfb {
+    display: inline-block;
+    width: 33%;
+}
+
+.buttonfb button {
+    width: 100%;
+    height: 3rem;
+    background-color: #254AA5;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonfb button:hover {
+    background-color: #1e4192;
+}
+
+.fa-brands {
+    height: 15rem;
+}
+
+/* ********** Button AP ********** */ 
+
+.buttonap {
+    display: inline-block;
+    width: 33%;
+}
+
+.buttonap button {
+    width: 100%;
+    height: 3rem;
+    background-color: #0B0B0B;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonap button:hover {
+    background-color: #222222;
+}
+
+/* ********** Button GG ********** */
+
+.buttongg {
+    display: inline-block;
+    width: 33%;
+    text-decoration: none;
+}
+
+.buttongg button {
+    width: 100%;
+    height: 3rem;
+    background: none;
+    border: white solid 1px;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttongg button:hover {
+    background: linear-gradient(217deg, #DC3C2A, rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.buttongg img {
+    height: 2rem;
+}
+
+/* ********** P ********** */
+
+.loginp {
+    font-size: 20px;
+    color: white;
+    margin: 2rem 0 0 0;
+}
+
+.loginp a {
+    text-decoration: none;
+    color: #E02B1A;
+}
+
+/* -~~- */
+
+
+
+/* ********** ID ********** */
+
+.loginput {
+    width: 33%;
+    height: 84px;
+    border: solid 1px #595959;
+    background-color: transparent;
+    border-radius: 3px;
+    margin: 2rem 0 0 0;
+}
+
+.loginput::placeholder {
+    font-size: 22px;
+}
+
+/* ********** CONNECT ********** */
+
+.seconnect {
+    width: 12.375rem;
+    height: 4.175rem;
+    color: white;
+    background: linear-gradient(#cd2f20, #9E1407);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 4rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+.seconnect:hover {
+    background: #9d1509;
+}
+
+/* ********** REGISTER ********** */
+
+#register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registerInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#registerCondi {
+    width: 33%;
+    margin: 2rem 0 0 0;
+}
+
+#regisSinscri {
+    margin: 2rem 0 0 0;
+}

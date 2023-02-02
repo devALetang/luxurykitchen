@@ -1,0 +1,14 @@
+.seconnect {
+    width: 9.375rem;
+    height: 2.375rem;
+    color: white;
+    background: linear-gradient(#cd2f20, #9E1407);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.seconnect:hover {
+    background: #9d1509;
+}
+

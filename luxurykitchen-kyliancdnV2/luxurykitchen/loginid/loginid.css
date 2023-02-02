@@ -1,0 +1,15 @@
+* {
+    background-color: #1E1E1E;
+}
+
+.loginput {
+    width: 33%;
+    height: 84px;
+    border: solid 1px #595959;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.loginput::placeholder {
+    font-size: 22px;
+}
