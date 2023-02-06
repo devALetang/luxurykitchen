@@ -4,6 +4,9 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+/* *::-webkit-scrollbar{
+    display: none;
+} */
 
 /* page index */
 
@@ -109,10 +112,56 @@ main {
     margin: 2%;
 }
 
+.indsli {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 20px;
+}
 
+.carsli {
+    background-color:  rgba(89, 89, 89, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 300px;
 
+}
 
+.carsli2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
 
+.butsli {
+    background-color: rgba(224, 43, 26, 1);
+    border: none;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.imgsli {
+    width: 200px;
+    height: 200px;
+}
+
+.indsli2 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 20px;
+}
 
 
 /* footer index */
@@ -231,5 +280,147 @@ footer {
     margin: 5%;
 }
 
-/* fin de page index */
+/* page panier */
 
+.pantit1{
+    font-size: 24px;
+    padding: 2%;
+}
+
+.conpan {
+    width: 100%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgcar1 {
+    width: 300px;
+    height: 280px;
+}
+
+.imgcar {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 2%;
+}
+
+.pandes {
+    width: 40%;
+    height: 280px;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.pandes0 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.pandes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pandesico {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.pantot {
+    background-color: rgba(89, 89, 89, 0.23);
+    ;
+    width: 470px;
+    height: 445px;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.pantp {
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.pantot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+.pantot2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+.pantot3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.pantot4 {
+    display: flex;
+    justify-content: center;
+}
+
+.panbut {
+    background-color:  rgba(224, 43, 26, 1);
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+}
+
+/* PAGE PANIER VIDE */
+
+.vpcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    gap: 20px;
+}
+
+.vpimg {
+    width: 370px;
+    height: 300px;
+}
+
+.vpbut {
+    width: 200px;
+    height: 44px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 21px;
+}
+
+.pvp {
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
