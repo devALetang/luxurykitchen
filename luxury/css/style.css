@@ -35,6 +35,7 @@ header {
     width: 20%;
     display: flex;
     align-items: flex-end;
+    justify-content: flex-start;
 
 }
 
@@ -590,88 +591,214 @@ footer {
     margin-left: 2%;
 }
 
+/* Mobile */
+@media only screen and (max-width:767px) {
+    p {
+        font-size: 11px;
+    }
 
-@media (max-width:425px) {
-    * {
-        padding: 0%;
-        margin: 0%;
+    /* header */
+
+    header {
+        justify-content: space-around;
     }
-    * p {
-        font-size: 9px !important;
+    .barnav1 {
+        justify-content: flex-start;
+        width: 60%;
+        margin-left: 2%;
     }
-    * h1 {
-        font-size: 16px !important;
-        text-align: center;
-    }
-    .h2foot {
-        font-size: 9px !important;
-        text-decoration: none;
+    .pnav {
+        margin-left: 1%;
+        font-size: 16px;
     }
     .barnav2 {
         display: none;
-    }
-    .barnav2b{
-        display: block;
-    }
-    .anavb{
-        font-size: 9px !important;
     }
     .barnav3 {
-        width: 80px;
+        width: 40%;
+        justify-content: space-around;
+    }
+    .barnav2b {
+        display: block;
+        justify-content: space-around;
+        font-size: 8px;
+    }
+
+    /* index */
+
+    .h1ind {
+        text-align: center;
+        margin-left: 0%;
+        font-size: 12px;
     }
     .conind1 {
-        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
     }
+    .conind1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        gap: 10px;
+    }
+    .carimg1 {
+        width: 250px;
+    }
+
+    /* footer */
+
     footer {
         flex-wrap: wrap;
+    }
+    footer p {
+        font-size: 5px;
+    }
+    .foot31 {
         flex-direction: column;
+        align-items: center;
     }
-    .footer0 {
-        padding: 0%;
-        margin: 0%;
+    .h2foot {
+        text-decoration: none;
+        font-size: 9px;
     }
-    .pfootc {
-        font-size: 8px !important;
+
+    /* panier */
+
+    .pantit1 {
+        text-align: center;
+        font-size: 12px;
     }
-    .afri {
-        width: 35px;
-        height: 35px;
+    .imgcar {
+        gap: 5px;
     }
-    .resppan {
-        display: block;
+    .imgcar1 {
+        width: 80px;
+        height: 80px;
+    }
+    .pandes {
+        height: 80px;
+        width: 60%;
+        flex-wrap: nowrap;
+    }
+    .panmin {
+        width: 20px;
+        height: 20px;
     }
     .pantot {
         display: none;
     }
-    .imgcar1 {
+    .resppan {
+        display: block;
+    }
+    .resppan1 {
+        gap: 20px;
+    }
+    .resppan2 {
+        font-size: 9px;
+        flex-wrap: nowrap;
+        gap: 20px;
+
+    }
+    .resppanbut {
         width: 150px;
-        height: 150px;
+        height: 30px;
     }
-    .pandes {
-        width: 50%;
-        height: 150px;
+
+    /*panier vide*/
+
+    .vpimg {
+        width: 240px;
+        height: 200px;
     }
-    .pandes0 {
-        margin-bottom: 2%;
+    .vpcon h1 {
+        font-size: 18px;
+    }
+    .vpcon p {
+        font-size:14px;
+    }
+    .vpbut {
+        font-size: 16px;
+        width: 160px;
+        height: 30px;
+    }
+
+    /*categorie*/
+
+    .imgcat {
+        width: 260px;
+        height: 200px;
+    }
+    .catcar {
+        justify-content: center;
+        align-items: center;
+    }
+    .catcar p {
+        margin-left: 7%;
+    }
+    .catcar2 {
+        width: 90%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .butcar {
+        width: 130px;
+        height: 30px;
     }
 }
-
-@media (max-width:801px) {
-    * {
-        padding: 0%;
-        margin: 0%;
+/* Ipad Mini to ipad */
+@media only screen and (min-width:768px) and (max-width:991px){
+    header {
+        justify-content: space-around;
+    }
+    .barnav1 {
+        justify-content: flex-start;
+        width: 60%;
+    }
+    .barnav2b {
+        display: block;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    .pnav {
+        margin-left: 1%;
     }
     .barnav2 {
         display: none;
     }
-    .barnav2b{
-        display: block;
+    .h1ind {
+        text-align: center;
+        margin-left: 0%;
     }
-    .resppan {
-        display: block;
+    .conind1 {
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
     }
-    .pantot {
+}
+/* Ipad et Mini Ordi */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .barnav2b {
+        display: block;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    .barnav2 {
         display: none;
     }
-    
+    .h1ind {
+        text-align: center;
+        margin-left: 0%;
+    }
+    .conind1 {
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
