@@ -493,9 +493,9 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
-    padding: 2%;
+    margin-top: 20px;
+    margin-left: 2%;
 }
 
 .imgcat {
@@ -541,23 +541,21 @@ footer {
     padding-bottom: 2%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin-left: 2%;
     margin-right: 2%;
     gap: 20px;
 }
 
 .condes1 {
-    height: 355px;
     display: flex;
     flex-direction: column;
+    height: 100%;
     gap: 40px;
 }
 
 .condes2 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: 10px;
     
 }
@@ -567,14 +565,12 @@ footer {
     margin-right: 2%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .condes4 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
 }
@@ -591,12 +587,72 @@ footer {
     margin-left: 2%;
 }
 
+#misenpanier {
+    background-color: rgba(224, 43, 26, 1);
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    display: none;
+}
+.imgpop {
+    width: 40%;
+    height: 40vh;
+}
+.imgpop2 {
+    width: 30px;
+    height: 30px;
+}
+.misenpanier1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+.misenpanier2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 1%;
+    
+}
+.misenpanier3 {
+    display: flex;
+    flex-direction: column;
+    gap: 115px;
+    width: 100%;   
+}
+.misenpanier4 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;  
+}
+.butpop {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    height: 60px;
+    font-size: 1rem;
+}
+.tpop {
+    font-size: 2rem;
+}
+.ppop {
+    font-size: 2rem;
+}
+
 /* Mobile */
 @media only screen and (max-width:767px) {
     p {
         font-size: 11px;
     }
-
+    
     /* header */
 
     header {
@@ -729,6 +785,10 @@ footer {
         width: 260px;
         height: 200px;
     }
+    .catflex {
+        justify-content: center;
+        align-items: center;
+    }
     .catcar {
         justify-content: center;
         align-items: center;
@@ -737,14 +797,79 @@ footer {
         margin-left: 7%;
     }
     .catcar2 {
-        width: 90%;
-        margin-left: 7%;
-        margin-right: 7%;
+        width: 86%;
     }
     .butcar {
         width: 130px;
         height: 30px;
     }
+
+    /* page description */
+
+    .imgdes {
+        width: 260px;
+        height: 260px;
+    }
+    .condes {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .condes1 {
+        gap: 20px;
+    }
+    .butdes {
+        width: 100px;
+    }
+    .destit1 {
+        font-size: 14px;
+        text-align: center;
+    }
+    #misenpanier {
+        left: 5%;
+        top: 62%;
+        flex-wrap: wrap;
+        height: 80vh;
+        width: 90%;
+        gap: 20px;
+    }
+    .misenpanier2 {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .misenpanier3 {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .misenpanier4 {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .ppop {
+        font-size: 12px;
+    }
+    .tpop {
+        font-size: 12px;
+    }
+    .butpop {
+        width: 40%;
+    }
+    .imgpop {
+        width: 200px;
+        height: 200px;
+    }
+    .imgpop2 {
+        justify-content: center;
+        align-items: center;
+        width: 10px;
+        height: 10px;
+    }
+
 }
 /* Ipad Mini to ipad */
 @media only screen and (min-width:768px) and (max-width:991px){
@@ -778,6 +903,58 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
     }
+    .condes {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .condes1 {
+        gap: 20px;
+    }
+    .butdes {
+        width: 100px;
+    }
+    .destit1 {
+        text-align: center;
+    }
+    #misenpanier {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 80vh;
+        top: 80%;
+    }
+    .misenpanier1 {
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .misenpanier2{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .misenpanier3 {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .misenpanier4 {
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .ppop {
+        font-size: 20px;
+    }
+    .tpop {
+        font-size: 20px;
+    }
+    .butpop {
+        width: 50%;
+    }
 }
 /* Ipad et Mini Ordi */
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -800,5 +977,11 @@ footer {
         flex-wrap: wrap;
         margin-left: 10%;
         margin-right: 10%;
+    }
+    #misenpanier {
+        height: 80vh;
+    }
+    .misenpanier4 {
+        gap: 40px;
     }
 }
