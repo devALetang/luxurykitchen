@@ -1,0 +1,463 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.h {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ********** H1 ********** */
+
+.profilh1 {
+    color: white;
+    font-size: 25px;
+}
+
+/* ********** H2 ********** */
+
+.profilH2 {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+.compAft::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 0;
+    border-bottom: 2px solid red;
+    transition: 0.25s;
+}
+
+.comAft::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 0;
+    border-bottom: 2px solid red;
+    transition: 0.25s;
+}
+
+.parAft::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 0;
+    border-bottom: 2px solid red;
+    transition: 0.25s;
+}
+
+
+
+a:nth-child(1) .compAft:hover::after {
+    width: 6.313rem;
+}
+
+a:nth-child(1) .comAft:hover::after {
+    width: 10rem;
+}
+
+a:nth-child(1) .parAft:hover::after {
+    width: 10.313;
+}
+
+.compAft::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 6.313rem;
+    border-bottom: 2px solid red;
+}
+
+.comAft::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 10rem;
+    border-bottom: 2px solid red;
+}
+
+.parAft::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 2px;
+    width: 10.313rem;
+    border-bottom: 2px solid red;
+}
+
+
+
+/* ********** H3 ********** */
+
+.profilh3 {
+    color: white;
+    font-size: 15px;
+}
+
+/* ********** P ********** */
+
+.profilP2 {
+    color: white;
+    font-size: 18px;
+    opacity: 80%;
+}
+
+/* ********** PP ********** */
+
+#profilPp {
+    display: flex;
+}
+
+#profilPp .h {
+    text-align: start;
+}
+
+#profilPp img {
+    width: 10rem;
+    margin: 0 0 0 1rem;
+}
+
+#profilPp div {
+    margin: 0 0 0 1rem;
+}
+
+/* -~~- */
+
+#profilH2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#profilH2 div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#profilImg div:nth-child(2) {
+    display: flex;
+}
+
+#profilImg div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profilImg img {
+    width: 100%;
+}
+
+#profilImg a .profilH2 {
+    text-align: center;
+    margin-block: 3rem 1rem;
+}
+
+#profilImg .profilh3 {
+    text-align: center;
+}
+
+/* ********** BUTTON ********** */
+
+.seconnect {
+    width: 14.375rem;
+    height: 2.375rem;
+    color: white;
+    background: linear-gradient(#83241B, #b72a1d);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-inline: 1.5rem;
+}
+
+.seconnect:hover {
+    background: #9d1509;
+}
+
+/* ********** PARTA ********** */
+
+#profilParta {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+#profilParta div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profilParta p {
+    width: 75%;
+    text-align: center;
+    margin-block: 1.2rem;
+}
+
+/* ********** COMMANDE********** */
+
+#profilColis .profilP2 {
+    opacity: 75%;
+    width: 20%;
+    text-align: center;
+}
+
+#profilColis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+#profilColis .profilH2 {
+    margin-top: 1.75rem;
+}
+
+.fa-solid {
+    color: white;
+}
+
+
+/* Mobile */
+@media (max-width:767px) {
+
+    #profilImg div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+    #profilPp {
+        margin:  3rem 0 0 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    #profilPp img {
+        width: 4.5rem;
+        height: 4.5rem;
+        margin: 0;
+    }
+
+    #profilParta {
+        flex-direction: column;
+    }
+
+    #profilParta div:last-child {
+        margin-top: 4rem;
+    }
+
+    /***/
+
+    .profilh1 {
+        color: white;
+        font-size: 1.4rem;
+    }
+
+    .profilP2 {
+        font-size: 0.9rem;
+    }
+    
+    #profilImg img {
+        width: 75%;
+    }
+
+    .profilH2 {
+        font-size: 1.1rem
+    }
+
+    .profilh3 {
+        font-size: 0.7rem;
+    }
+
+    .profilComp::after {
+        top: 197px;
+        width: 3.9rem;
+    }
+
+    .profilCom::after {
+        top: 197px;
+        width: 6rem;
+    }
+
+    .profilPar::after {
+        width: 7.6rem;
+        top: 197px;
+    }
+
+    .i::after {
+        display: none;
+    }
+
+        /***** PROFIL 2 *****/
+
+        #profilColis .profilP2 {
+            width: 35%;
+        }
+
+        /***** PROFIL 3 *****/
+
+        .profil3p {
+            font-size: 1.3rem !important;
+        }
+}
+
+/* Ipad Mini to ipad */
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    #profilImg div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+    }
+
+    #profilPp img {
+        width: 7rem;
+        margin: 0 0 0 1rem;
+    }
+
+    .profilP2 {
+        font-size: 1rem;
+    }
+    
+    #profilImg img {
+        width: 65%;
+    }
+
+    .profilH2 {
+        font-size: 1.4rem;
+    }
+
+    .profilh3 {
+        font-size: 1.2rem;
+    }
+
+    .profilComp::after {
+        top: 242px;
+    }
+
+    .profilCom::after {
+        top: 242px;
+    }
+
+    .profilPar::after {
+        width:9.6rem;
+        top: 242px;
+    }
+
+    .i::after {
+            display: none;
+        }
+
+    /***** PROFIL 3 *****/
+
+    .profil3p {
+        font-size: 1.3rem !important;
+    }
+}
+
+/* Ipad et Mini Ordi */
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    #profilPp img {
+        width: 7.5rem;
+        height: 7.5rem;
+    }
+
+    .profilComp::after {
+        top: 251px;
+    }
+
+    .profilCom::after {
+        top: 251px;
+    }
+
+    .profilPar::after {
+        top: 251px;
+    }
+}
+
+/* Ordi to UP */
+@media screen and (min-width: 1200px) {
+
+}
+
+.profil3Onglet {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.profil3Onglet div {
+    height: 10rem;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.profil3Onglet div:nth-child(2){
+    height: 0px;
+}
+
+.profil3Onglet hr {
+    margin: 0;
+}
+
+.profil3p {
+    font-size: 2rem;
+}
+ /**/
+#profilPp {
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+/**/
+
+/**/
+#profilH2 {
+    margin-top: 3rem;
+}
+/**/
+
+.profil3Intitu {
+    margin-left: 20%;
+    margin-block-start: 5rem;
+    margin-block-end: 1rem;
+}
+
