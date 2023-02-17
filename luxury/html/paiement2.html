@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Nunito&display=swap" rel="stylesheet">
+    <title>Luxury Kitchen | Paiement</title>
+</head>
+<body>
+    <header>
+        <div class="barnav1">
+            <a class="pnav" id="luxurykitchen" href="/index.html">LUXURY KITCHEN</a>
+        </div>
+        <nav class="barnav2">
+            <a class="anav" href="">Poêle</a>
+            <a class="anav" href="">Verres</a>
+            <a class="anav" href="">Accessoires</a>
+            <a class="anav" href="">Couverts</a>
+            <a class="anav" href="">Assiettes</a>
+            <a class="anav" href="">Moules et plaques</a>
+        </nav>
+        <div class="barnav3">
+            <a class="anav2" href="/html/paiement3.html"><img src="/img/malettenav.png" alt="lien panier"></a>
+            <a class="anav2" href=""><img src="/img/profilnav.png" alt="lien profil"></a>
+            <a class="anav2" href=""><img src="/img/menunav.png" alt="menu ouvrant"></a>
+        </div>
+    </header>
+    <main>
+        <nav class="barnav2b">
+            <a class="anavb" href="/html/categorie1.html">Poêle</a>
+            <a class="anavb" href="/html/categorie2.html">Verres</a>
+            <a class="anavb" href="/html/categorie3.html">Accessoires</a>
+            <a class="anavb" href="">Couverts</a>
+            <a class="anavb" href="">Assiettes</a>
+            <a class="anavb" href="">Moules et plaques</a>
+        </nav>
+        
+        <form action="" class="paiementForm center">
+            <h2 class="profilH2 h profilCom"> Ajouter une méthode de paiement </h2>
+            <h2 class="profilH2 h profilCom"> Nom du compte </h2>
+            <div id="commandeCarte">
+                <input class="loginput" type="text" placeholder="Nom du titulaire de la carte">
+                <input class="loginput" type="text" placeholder="Numéro de la carte">
+            </div>
+            <h2 class="profilH2 h profilCom"> Date d’expiration </h2>
+            <div class="loginput-shrt">
+                <select name="mois" id="mois" class="loginput">
+                    <option value="mois"> Mois</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+
+                <select name="annee" id="annee" class="loginput">
+                    <option value="Année">Année</option>
+                    <option value="1">23</option>
+                    <option value="2">24</option>
+                    <option value="3">25</option>
+                    <option value="4">26</option>
+                    <option value="5">27</option>
+                    <option value="6">28</option>
+                    <option value="7">29</option>
+                    <option value="8">30</option>
+                    <option value="9">31</option>
+                    <option value="10">32</option>
+                    <option value="11">33</option>
+                    <option value="12">34</option>
+                </select>
+            </div>
+            <input class="loginput" type="number" placeholder="Code de sécurité (CVV)">
+            <div id="registerCondi"><p> Enregistrer pour mes prochains achats </p></div>
+            <div id="paiementRadio">
+                <input type="radio" name="nonOui" value="oui">
+                <label for="oui"> Oui </label>
+                <input type="radio" name="nonOui" value="non">
+                <label for="non"> Non </label>
+            </div>
+            <a href="/html/paiement3.html"><button class="seconnect" id="regisSinscri"> Valider le paiement </button></a>
+        </form>
+    </main>
+    <footer>
+        <div class="footer0">
+            <div class="foot1">
+                <h2 class="h2foot">CONTACT INFORMATION</h2>
+                <div class="foot11">
+                    <img class="iconf" src="/img/location.png" alt="Logo localisation">
+                    <p>
+                        3891 Ranchview
+                        <br>
+                        Dr. Richardson,
+                        <br>
+                        California 62639
+                        <br>
+                        USA
+                    </p>
+                </div>
+                <div class="foot11">
+                    <img class="iconf" src="/img/phone.png" alt="Logo téléphone">
+                    <p>
+                        (603) 555-0123
+                    </p>
+                </div>
+                <div class="foot11">
+                    <img class="iconf" src="/img/mail.png" alt="Logo mail">
+                    <p>
+                        georgia.young@example.com
+                    </p>
+                </div>
+            </div>
+            <div class="foot2">
+                <h2 class="h2foot">DÉCOUVREZ L'APPLICATION</h2>
+                <div class="foot21">
+                    <div class="foot211">
+                        <img src="/img/apple.png" alt="Logo App store">
+                        <p>
+                            Télécharger dans
+                            <br>
+                            l'APP STORE
+                        </p>
+                    </div>
+                    <div class="foot211">
+                        <img src="/img/google-play-icon.png" alt="Logo Play store">
+                        <p>
+                            Disponnible sur
+                            <br>
+                            GOOGLE PLAY
+                        </p>
+                    </div>
+                </div>
+                <p class="pfoot1">
+                    Paiement sécurisé
+                </p>
+                <div class="foot23">
+                    <div>
+                        <img class="ial" src="/img/logos_visa.png" alt="Logo Visa">
+                    </div>
+                    <div>
+                        <img class="ial" src="/img/logos_mastercard.png" alt="Logo Mastercard">
+                    </div>
+                    <div>
+                        <img class="ial" src="/img/logos_paypal.png" alt="Logo Paypal">
+                    </div>
+                </div>
+                <div class="foot4">
+                    <a class="afswipe" href="#luxurykitchen"><img src="/img/swipe.png" alt="swipe haut"></a>
+                </div>
+            </div>
+            <div class="foot3">
+                <h2 class="h2foot">REJOIGNEZ-NOUS</h2>
+                <div class="foot31">
+                    <a class="afr" href=""><img src="/img/facebook.png" alt="LOGO FACEBOOK"></a>
+                    <a class="afr" href=""><img src="/img/twitter.png" alt="LOGO TWITTER"></a>
+                    <a class="afr" href=""><img src="/img/insta.png" alt="LOGO INSTAGRAM"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
